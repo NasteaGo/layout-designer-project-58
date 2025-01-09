@@ -377,3 +377,17 @@ background-size: contain;
   text-decoration: underline;
   color: rgb(0, 125, 193);
 }
+.header-link:hover,
+button:hover {
+background-color: rgb(234, 118, 0);
+}
+li:hover{
+  background: rgb(254, 138, 2);
+  color: white;
+}
+li:hover .cognitive-list-items-title,
+li:hover .number-cognitive,
+li:hover .cognitive-list-items-description {
+  background: rgb(254, 138, 2);
+  color: white;
+}
