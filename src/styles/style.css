@@ -173,3 +173,93 @@ max-width: 350px;
 .cognitive-list-items-description {
   line-height: 160%;
 }
+.backgrond-ikea-effect-1 {
+  position: relative;
+  background-color: #f5f4f0;
+}
+
+.backgrond-ikea-effect-1::before {
+  content:" ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("./../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+}
+.cards {
+  margin:0 auto;
+  padding-top:100px;
+  padding-bottom: 100px;
+}
+.cards-title-img {
+  display:flex;
+  gap:30px;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.content-color {
+
+color:black;}
+
+.card-title p {
+  font-family: Neucha, Arial, sans-serif;
+  font-size: 24px;
+}
+
+.card-title h2 {
+  font-family: Neucha, Arial, sans-serif;
+  font-size: 60px;
+  margin-bottom: 30px;
+  line-height: 72px;
+}
+.card-title .card-title-description {
+  font-size: 34px;
+  font-family: Neucha, Arial, sans-serif;
+  line-height: 40.8px;
+}
+.img-div {
+  position: relative;
+  vertical-align: middle;
+  z-index: 2;
+}
+.card-description-title {
+  background-color: rgb(176, 154, 129);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.card-description-paragraf {
+  display: flex;
+  gap:30px;
+  justify-content: space-between;
+  line-height: 25.6px;
+}
+.card-title .card-title-color-paragraf {
+  color:rgb(215, 204, 192);
+}
+.content-color-white{
+  color: white;
+}
+.background-premature-optimization {
+  position: relative;
+  background-color: rgb(176, 154, 129);
+}
+.background-premature-optimization::before{
+  content:" ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("./../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+.color-2 {
+  background: rgb(255, 255, 255);
+color:rgb(176, 154, 129);
+}
