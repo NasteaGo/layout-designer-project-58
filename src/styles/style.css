@@ -9,6 +9,7 @@
   color:#2A2626 ;
   line-height: 1.6em;
   overflow: auto;
+  width: 100%;
 }
 a {
   text-decoration: none;
@@ -51,6 +52,7 @@ img {
 h1 {
   font-family: Neucha, Arial, sans-serif;
   font-size: 72px;
+  font-weight: normal;
   line-height: 1.2em;
   color:rgb(254, 138, 2);
   margin-bottom: 185px;
@@ -92,6 +94,7 @@ h1 {
 .video-section-title {
   font-family:Neucha, Arial, sans-serif;
   font-size: 73px;
+  font-weight: normal;
   color:rgb(42, 38, 38);
   line-height: 1.2em;
   text-align: center;
